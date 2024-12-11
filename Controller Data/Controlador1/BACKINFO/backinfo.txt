@@ -1,9 +1,3 @@
-#
-# Generated backup file, do not edit.
-#
-# Originally at: C:\Users\opere\Documents\RobotStudio\Projects\lab01\Virtual Controllers\TEMP\759188c3-af41-4a28-93c1-0f4e251cc365\backup.644057
-# 2024-12-10  20:48:36
-#
 >>SYSTEM_ID:
 VIRTUAL_USE
 
