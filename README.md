@@ -24,5 +24,10 @@ Ademas se deben icluir señales de entrada y salidas. Se deben crear dos entrada
 ## Plano de planta de la ubicacion de cada uno de los elementos.
 ## Descripcion de las funciones utilizadas.
 ## Diseño de la herramienta.
+
+<p align="center">
+  <img src="./Media/Fotos/Preview.png" width="600" title="ensayo">
+</p>
+
 ## Codigo en RAPID del modulo utilizado para el desarrollo de la practica.
 ## Vıdeo que contenga la simulacion en RobotStudio ası como la implementacion de la practica con los robots reales.
