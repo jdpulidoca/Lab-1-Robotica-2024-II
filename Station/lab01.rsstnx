@@ -3897,6 +3897,8 @@
         <ObjectRef ID="2389" />
         <ObjectRef ID="2394" />
         <ObjectRef ID="7839" />
+        <ObjectRef ID="12984" />
+        <ObjectRef ID="12985" />
       </Instances>
       <Transform>
         <RowX X="1" Y="0" Z="0" W="0" />
@@ -3915,6 +3917,7 @@
         <ObjectRef ID="2385" />
         <ObjectRef ID="2393" />
         <ObjectRef ID="7838" />
+        <ObjectRef ID="12983" />
       </Definitions>
       <Textures />
     </AssemblyRoot>
@@ -27091,9 +27094,44 @@
       <ArgumentList ID="12982" />
     </RsPathCallInstruction>
     <RoutineArgumentList ID="12982" Name="" Parent="12981" />
+    <AssemblyDef ID="12983" Name="" Parent="1193" />
+    <ComponentInstance ID="12984" Name="Group_1" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="12983" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="GraphicComponentGroup" />
+      <ClipPlane ID="-1" />
+    </ComponentInstance>
+    <ComponentInstance ID="12985" Name="IRC5_Single-Cabinet" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="4" DocID="3" />
+      <Transform>
+        <RowX X="0" Y="-1" Z="0" W="0" />
+        <RowY X="0" Y="0" Z="1" W="0" />
+        <RowZ X="-1" Y="0" Z="0" W="0" />
+        <RowT X="-1.27960601856644" Y="-0.490829450996066" Z="0.1" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
   </Objects>
   <ReferencedDocuments>
     <DocRef ID="1" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.IRB140%\IRB140_6_81_C_G_03.rslib" RelativeLocation="..\..\..\..\..\..\ProgramData\ABB\DistributionPackages2\ABB.RobotStudio.Models.IRB140-1.1\RobotStudio\LibraryComponents\IRB140_6_81_C_G_03.rslib" GUID="{FC921CAD-BF7C-4760-9332-E09FBB2B2964}" />
     <DocRef ID="2" DocumentType="ComponentLibrary" Location="C:\Users\josep\Documents\GitHub\Lab-1-Robotica-2024-II\Components\toolx.rslib" RelativeLocation="..\Components\toolx.rslib" GUID="{DE489D76-7389-4457-ADCB-1582B2C0ACA9}" />
+    <DocRef ID="3" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.IRC5%\IRC5_Single-Cabinet.rslib" RelativeLocation="..\..\..\..\..\..\ProgramData\ABB\DistributionPackages2\ABB.RobotStudio.Models.IRC5-1.1\RobotStudio\LibraryComponents\IRC5_Single-Cabinet.rslib" GUID="{88D07C5D-7880-4502-8505-2BF6B61445F4}" />
   </ReferencedDocuments>
 </PIMDocument>
