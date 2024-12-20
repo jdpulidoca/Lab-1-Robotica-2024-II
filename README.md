@@ -1,7 +1,7 @@
 # Laboratorio 1 Robotica 2024-II
 ### Integrantes
 Julian David Pulido Castañeda
-
+Omar Armando Perz Ospino
 ## Descripcion de la solucion planteada.
 ## Diagrama de flujo de acciones del robot.
 ## Plano de planta de la ubicaci´on de cada uno de los elementos.
