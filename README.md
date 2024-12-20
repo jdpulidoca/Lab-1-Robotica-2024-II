@@ -24,7 +24,7 @@ Ademas se deben icluir señales de entrada y salidas. Se deben crear dos entrada
 ## Plano de planta de la ubicacion de cada uno de los elementos.
 ## Descripcion de las funciones utilizadas.
 ## Diseño de la herramienta.
-
+Para el diseño de la herramienta se buscó que fuese posible cambiar fácilmente el instrumento de escritura, que en este caso se trata de un marcador borrable, y que a su vez éste se encuentre correctamente firmemente agarrado a la herramienta. Para ello se ha diseñado una abrazadera (figura 1), que se ajusta a objetos cilíndricos de aproximadamente 16 mm, que es la medida del diámetro del tipo de marcador usado.
 <p align="center">
   <img src="./Media/Fotos/Preview.png" width="600" title="ensayo">
 </p>
