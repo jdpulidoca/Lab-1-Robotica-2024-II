@@ -26,8 +26,18 @@ Ademas se deben icluir señales de entrada y salidas. Se deben crear dos entrada
 ## Diseño de la herramienta.
 Para el diseño de la herramienta se buscó que fuese posible cambiar fácilmente el instrumento de escritura, que en este caso se trata de un marcador borrable, y que a su vez éste se encuentre correctamente firmemente agarrado a la herramienta. Para ello se ha diseñado una abrazadera (figura 1), que se ajusta a objetos cilíndricos de aproximadamente 16 mm, que es la medida del diámetro del tipo de marcador usado.
 <p align="center">
-  <img src="./Media/Fotos/Preview.png" width="600" title="ensayo">
+  <img src="./Media/Fotos/abrazadera.PNG" width="600" title="ensayo">
 </p>
+Adicionalmente, se ha diseñado en la herramienta una junta prismática de cuenta con un resorte para permitir un cierto grado de error en el posicionamiento del marcador. El resultado final de la herramienta diseñada se muestra en la figura 2.
+<p align="center">
+  <img src="./Media/Fotos/tool.PNG" width="600" title="ensayo">
+</p>
+La fabricación de la herramienta diseñada se realizó con el método manufactura aditiva utilizando PLA. En la figura 3 se muestra la herramienta fabricada.
+<p align="center">
+  <img src="./Media/Fotos/toolreal.jpg" width="600" title="ensayo">
+</p>
+
+Para hallar el TCP se utilizaron dos métodos: el primero fue utilizar el TCP calculado directamente mediante RobotStudio utilizando el modelo CAD y el segundo fue directamente en el FlexPendant mediante el método de definición TCP & Z. En la tabla 4 se muestra una comparación entre los resultados obtenidos mediante los dos métodos.
 
 ## Codigo en RAPID del modulo utilizado para el desarrollo de la practica.
 ## Vıdeo que contenga la simulacion en RobotStudio ası como la implementacion de la practica con los robots reales.
