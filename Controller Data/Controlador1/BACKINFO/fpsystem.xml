@@ -2,6 +2,11 @@
 <!--Comments: Settings for the FlexPendant.-->
 <FP>
   <USER name="">
+    <DATA id="ViewInManFull">
+      <PROP name="text" value="PARAM_TXT_VIEWINMANFULL" />
+      <PROP name="dll" value="" />
+      <PROP name="type" value="" />
+    </DATA>
     <DATA id="ViewInAuto">
       <PROP name="text" value="PARAM_TXT_VIEWINAUTO" />
       <PROP name="dll" value="TpsViewProductionWnd.dll" />
@@ -20,6 +25,7 @@
     </DATA>
     <DATA id="DefaultPath">
       <PROP name="BackupRestore" value="" />
+      <PROP name="RapidModules" value="" />
     </DATA>
     <DATA id="QuickSet">
       <PROP name="IncrementToggle" value="Small" />
@@ -37,9 +43,8 @@
     </DATA>
     <DATA id="Program Editor">
       <PROP name="HideDeclarations" value="False" />
-    </DATA>
-    <DATA id="UserSettings">
-      <PROP name="RapidEditorFontIndex" value="5" />
+      <PROP name="ProgramPath" value="" />
+      <PROP name="ModulePath" value="C:/Users/josep/Documents/GitHub/Lab-1-Robotica-2024-II/User Files/" />
     </DATA>
     <DATA id="Show">
       <PROP name="default" value="CtrlName" />
@@ -59,10 +64,9 @@
       <PROP name="pressed" value="" />
       <PROP name="target" value="" />
     </DATA>
-    <DATA id="ViewInManFull">
-      <PROP name="text" value="PARAM_TXT_VIEWINMANFULL" />
-      <PROP name="dll" value="" />
-      <PROP name="type" value="" />
+    <DATA id="UserSettings">
+      <PROP name="RapidEditorFontIndex" value="5" />
+      <PROP name="LoadFileFilterIndex" value="1" />
     </DATA>
   </USER>
 </FP>
