@@ -24,6 +24,13 @@ Además se deben incluir señales de entrada y salidas. Se deben crear dos entra
   <li>La segunda señal de entrada debe posicionar el brazo en una pose de mantenimiento donde se pueda instalar o desinstalar la herramienta y se indique el estado con la segunda luz.</li>
 </ul>
 
+
+<div align="center">
+  <img src="./Media/Fotos/Preview.png" width="400" title="preview">
+  <p>Figura 1. Distribucion posble de planta.</p>
+</div>
+
+
 ### Solucion
 
 En cuanto a la solucion, se plantea el tamaño que debe tener un pastel circular para 20 personas por lo cual se realiza la consulta y se obtiene el dato de que en promedio este es de un tamaño de 25 cm de diametro con una altura de entre 10 y 20 cm. Por lo cual se parte de estas dimensiones para realizar los recorridos de las decoraciones.
@@ -32,24 +39,32 @@ Para los nombres, se usaron los primeros nombres o abreviaciones de los mismo, a
 
 <div align="center">
   <img src="./Media/Fotos/nombres.PNG" width="600" title="nombres">
-  <p>Figura 1. Nombres con fuente estilizada.</p>
+  <p>Figura 2. Nombres con fuente estilizada.</p>
 </div>
 
 En cuento a la decoracion, se busco usar un logo ya existen con el fin de agilizar el trazado de las trayectorias del robot. Se opto por el emblema de la saga <i>Assassin's Creed</i> debido a que presenta un equlibrio optimo entre simplicidad y complejidad.
 
 <div align="center">
   <img src="./Media/Fotos/logo.PNG" width="600" title="logo">
-  <p>Figura 2. Emblema <i>Assassin's Creed</i>.</p>
+  <p>Figura 3. Emblema <i>Assassin's Creed</i>.</p>
 </div>
 
 Por ultimo se modelan estos dibujos junto a las dimensiones del pastel en un entorno 3D (<i>OnShape</i>) con el fin de facilitar la creacion de puntos y trayectorias en <i>RobotStudio</i> mediante la seleccion de vertices que permite el software.
 
 <div align="center">
   <img src="./Media/Fotos/pastel.PNG" width="600" title="pastel">
-  <p>Figura 3. CAD Pastel decorado.</p>
+  <p>Figura 4. CAD Pastel decorado.</p>
 </div>
 
+<div align="center">
+  <img src="./Media/Fotos/pasteltrac.PNG" width="600" title="pasteltrac">
+  <p>Figura 5. Creacion de objetivos mediante vertices del modelo 3D.</p>
+</div>
 
+<div align="center">
+  <img src="./Media/Fotos/pasteltrac2.PNG" width="600" title="pasteltrac2">
+  <p>Figura 6. Creacion de trayectoria.</p>
+</div>
 
 ## Diagrama de flujo de acciones del robot
 
@@ -57,7 +72,7 @@ Se planteo el siguiente diagrama de flujo sobre las acciones que el robot debe c
 
 <div align="center">
   <img src="./Media/Fotos/DiagramaFlujo.PNG" width="900" title="digflu">
-  <p>Figura 1. Diagrama de Fujo de las acciones del robot.</p>
+  <p>Figura 7. Diagrama de Fujo de las acciones del robot.</p>
 </div>
 
 En primera instancia se da un reinicio general a los testigos y posicion con el fin de evitar problemas durante la ejecucion de las rutinas. Posteriormente, se evalua si la primera entrada digital esta activa:
@@ -80,15 +95,31 @@ Ambas condiciones estan en un ciclo perpetuo, por lo cual si ninguna de la seña
 
 ## Plano de planta de la ubicación de cada uno de los elementos
 
+En caunto a la dsitribucion de los objetos usados duarnte la practica, tanto en soimulacion como en la realidad se realizo de manera empirica, siendo la diferencia mas notable que la planat virtual se dispone de 2 superficies: una inclinida y una sin inclinar con el fin de poder ajustar el <i>Workobject</i> de manera mas facil.
+
 <div align="center">
-  <img src="./Media/Fotos/Planta.PNG" width="300" title="digflu">
-  <p>Figura 1. Diagrama de Fujo de las acciones del robot.</p>
+  <img src="./Media/Fotos/Planta.PNG" width="600" title="plantav">
+  <p>Figura 8. Distribucion de planta virtual.</p>
 </div>
 
 <div align="center">
-  <img src="./Media/Fotos/Planta2.PNG" width="300" title="digflu">
-  <p>Figura 1. Diagrama de Fujo de las acciones del robot.</p>
+  <img src="./Media/Fotos/Planta2.PNG" width="600" title="plantav2">
+  <p>Figura 9. Distribucion de planta virtual con unidad de control.</p>
 </div>
+
+En caunto a planat real, solo se dispuso de una unica superficie la cual se ubico de forma empirica y se ajusto segun los resultados de los ensayos hasta dar con una ubicacion donde las trayectorias se eejcutaron correctamente, por lo cual el <i>Workobject</i> virtual y el  <i>Workobject</i> real nunca coincidieron y este ultimo se ajusto segun las superficies de soporte que se disponion duarante las practicas.
+
+<div align="center">
+  <img src="./Media/Fotos/lab3.jpeg" width="600" title="plantar">
+  <p>Figura 10. Distribucion de planta real vista isometrica.</p>
+</div>
+
+<div align="center">
+  <img src="./Media/Fotos/lab5.jpeg" width="600" title="plantar3">
+  <p>Figura 11. Distribucion de planta real lateral.</p>
+</div>
+
+
 
 ## Descripción de las funciones utilizadas
 
@@ -106,21 +137,21 @@ Para el diseño de la herramienta se buscó que fuese posible cambiar fácilment
 
 <div align="center">
   <img src="./Media/Fotos/abrazadera.PNG" width="300" title="abrazadera">
-  <p>Figura 1. Abrazadera diseñada para sostener el elemento de escritura.</p>
+  <p>Figura 12. Abrazadera diseñada para sostener el elemento de escritura.</p>
 </div>
 
 Adicionalmente, se ha diseñado en la herramienta una junta prismática de cuenta con un resorte para permitir un cierto grado de error en el posicionamiento del marcador. El resultado final de la herramienta diseñada se muestra en la figura 2.
 
 <div align="center">
   <img src="./Media/Fotos/tool.PNG" width="500" title="tool">
-  <p>Figura 2. Modelo CAD de la herramienta diseñada.</p>
+  <p>Figura 13. Modelo CAD de la herramienta diseñada.</p>
 </div>
 
 La fabricación de la herramienta diseñada se realizó con el método manufactura aditiva utilizando PLA. En la figura 3 se muestra la herramienta fabricada.
 
 <div align="center">
   <img src="./Media/Fotos/toolreal.jpg" width="500" title="toolreal">
-  <p>Figura 3. Foto de la herramienta fabricada en PLA por medio de manufactura aditiva.</p>
+  <p>Figura 14. Foto de la herramienta fabricada en PLA por medio de manufactura aditiva.</p>
 </div>
 
 Para hallar el TCP se utilizaron dos métodos: el primero fue utilizar el TCP calculado directamente mediante RobotStudio utilizando el modelo CAD y el segundo fue directamente en el FlexPendant mediante el método de definición TCP & Z. En la tabla 1 se muestra una comparación entre los resultados obtenidos mediante los dos métodos.
@@ -168,6 +199,14 @@ Para hallar el TCP se utilizaron dos métodos: el primero fue utilizar el TCP ca
   </tr>
 </table>
 <p align="center">Tabla 1. Comparación de valores de TCP obtenidos por medio del modelo CAD y de manera manual por el método TCP & Z.</p>
+
+
+<div align="center">
+  <img src="./Media/Fotos/lab4.jpeg" width="600" title="plantar2">
+  <p>Figura 15. Herramienta instalada en manipulador.</p>
+</div>
+
+
 
 ## Código en RAPID del módulo utilizado para el desarrollo de la practica.
 ## Video que contenga la simulación en RobotStudio, así como la implementación de la práctica con los robots reales.
