@@ -208,9 +208,11 @@ Para hallar el TCP se utilizaron dos métodos: el primero fue utilizar el TCP ca
 
 
 
-## Código en RAPID del módulo utilizado para el desarrollo de la practica.
+## Código en RAPID del módulo utilizado para el desarrollo de la practica
 
-```
+El codigo usado duarante la practica es el siguiente, donde se establecen todos los puntos de las trayectorias y su origen, las dimesniones de la herramineta, las  5 funciones de trayectorias y una funcion central donde esta implementada la logica de operacion.
+
+```python
 MODULE Module1
     PERS tooldata toolx:=[TRUE,[[148.954,0,67.083],[0.79335334,0,0.608761429,0]],[1,[0,0,1],[1,0,0,0],0,0,0]];
     TASK PERS wobjdata Workobject_2:=[FALSE,TRUE,"",[[346.241433789,-502.55410708,96.953891786],[0.949400236,-0.04857085,-0.254080575,-0.178109869]],[[0,0,0],[1,0,0,0]]];
@@ -751,4 +753,34 @@ Mira el video dando clic en la imagen:
     <img src="https://img.youtube.com/vi/YRvLADFy390/0.jpg" alt="Ver el video en YouTube">
   </a>
 </div>
+
+Ademas, acontinuacion se presenta los resultados de cad uno de los ensyaos realizados:
+
+
+<div align="center">
+  <img src="./Media/Fotos/ensayo1.jpeg" width="600" title="ensayo1">
+  <p>Figura 16. Resultado Ensayo 1.</p>
+</div>
+
+<div align="center">
+  <img src="./Media/Fotos/ensayo2.jpeg" width="600" title="ensayo2">
+  <p>Figura 17. Resultado Ensayo 2.</p>
+</div>
+
+<div align="center">
+  <img src="./Media/Fotos/ensayo3.jpeg" width="600" title="ensayo3">
+  <p>Figura 18. Resultado Ensayo 3.</p>
+</div>
+
+<div align="center">
+  <img src="./Media/Fotos/ensayo4.jpeg" width="600" title="ensayo4">
+  <p>Figura 19. Resultado Ensayo 4.</p>
+</div>
+
+<div align="center">
+  <img src="./Media/Fotos/ensayo51.jpeg" width="600" title="ensayo5">
+  <p>Figura 20. Resultado Ensayo 5.</p>
+</div>
+
+
 
