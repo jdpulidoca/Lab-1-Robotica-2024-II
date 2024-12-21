@@ -3898,6 +3898,7 @@
         <ObjectRef ID="7839" />
         <ObjectRef ID="12984" />
         <ObjectRef ID="12985" />
+        <ObjectRef ID="12986" />
       </Instances>
       <Transform>
         <RowX X="1" Y="0" Z="0" W="0" />
@@ -14977,7 +14978,7 @@
       <Definition ID="7838" />
       <Transform>
         <RowX X="0.366634851847375" Y="0.93036416480612" Z="-0.00118585642635576" W="0" />
-        <RowY X="-0.807331995792287" Y="0.317516756460912" Z="-0.497391352896876" W="0" />
+        <RowY X="-0.807331995792288" Y="0.317516756460912" Z="-0.497391352896876" W="0" />
         <RowZ X="-0.462378561333563" Y="0.183318384814924" Z="0.867525466950655" W="0" />
         <RowT X="0.569174347164406" Y="-0.590314925133322" Z="0.176675204301886" W="1" />
       </Transform>
@@ -27098,10 +27099,34 @@
         <ControlPoints />
       </PhysicsSurfaceVelocity>
     </ComponentInstance>
+    <ComponentInstance ID="12986" Name="pastel" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="4" DocID="4" />
+      <Transform>
+        <RowX X="0" Y="1" Z="0" W="0" />
+        <RowY X="-1" Y="0" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0.606671" Y="-0.0725068850608769" Z="0.2" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
   </Objects>
   <ReferencedDocuments>
     <DocRef ID="1" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.IRB140%\IRB140_6_81_C_G_03.rslib" RelativeLocation="..\..\..\..\..\..\ProgramData\ABB\DistributionPackages2\ABB.RobotStudio.Models.IRB140-1.1\RobotStudio\LibraryComponents\IRB140_6_81_C_G_03.rslib" GUID="{FC921CAD-BF7C-4760-9332-E09FBB2B2964}" />
     <DocRef ID="2" DocumentType="ComponentLibrary" Location="C:\Users\josep\Documents\GitHub\Lab-1-Robotica-2024-II\Components\toolx.rslib" RelativeLocation="..\Components\toolx.rslib" GUID="{DE489D76-7389-4457-ADCB-1582B2C0ACA9}" />
     <DocRef ID="3" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.IRC5%\IRC5_Single-Cabinet.rslib" RelativeLocation="..\..\..\..\..\..\ProgramData\ABB\DistributionPackages2\ABB.RobotStudio.Models.IRC5-1.1\RobotStudio\LibraryComponents\IRC5_Single-Cabinet.rslib" GUID="{88D07C5D-7880-4502-8505-2BF6B61445F4}" />
+    <DocRef ID="4" DocumentType="ComponentLibrary" Location="C:\Users\josep\Desktop\Nueva carpeta\Components\pastel.rslib" RelativeLocation="..\..\..\..\Desktop\Nueva carpeta\Components\pastel.rslib" GUID="{FCFDC0CE-A061-40AB-84AE-82118D710182}" />
   </ReferencedDocuments>
 </PIMDocument>
