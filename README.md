@@ -107,3 +107,7 @@ Para hallar el TCP se utilizaron dos métodos: el primero fue utilizar el TCP ca
 
 ## Código en RAPID del módulo utilizado para el desarrollo de la practica.
 ## Video que contenga la simulación en RobotStudio, así como la implementación de la práctica con los robots reales.
+
+Mira el video dando clic en la imagen:
+
+[![Ver el video en YouTube](https://img.youtube.com/vi/YRvLADFy390/0.jpg)](https://youtu.be/YRvLADFy390)
