@@ -110,4 +110,9 @@ Para hallar el TCP se utilizaron dos métodos: el primero fue utilizar el TCP ca
 
 Mira el video dando clic en la imagen:
 
-[![Ver el video en YouTube](https://img.youtube.com/vi/YRvLADFy390/0.jpg)](https://youtu.be/YRvLADFy390)
+<div align="center">
+  <a href="[https://www.youtube.com/watch?v=VIDEO_ID](https://youtu.be/YRvLADFy390)">
+    <img src="https://img.youtube.com/vi/YRvLADFy390/0.jpg" alt="Ver el video en YouTube">
+  </a>
+</div>
+
