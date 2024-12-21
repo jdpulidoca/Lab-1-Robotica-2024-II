@@ -24,8 +24,72 @@ Además se deben incluir señales de entrada y salidas. Se deben crear dos entra
   <li>La segunda señal de entrada debe posicionar el brazo en una pose de mantenimiento donde se pueda instalar o desinstalar la herramienta y se indique el estado con la segunda luz.</li>
 </ul>
 
+### Solucion
+
+En cuanto a la solucion, se plantea el tamaño que debe tener un pastel circular para 20 personas por lo cual se realiza la consulta y se obtiene el dato de que en promedio este es de un tamaño de 25 cm de diametro con una altura de entre 10 y 20 cm. Por lo cual se parte de estas dimensiones para realizar los recorridos de las decoraciones.
+
+Para los nombres, se usaron los primeros nombres o abreviaciones de los mismo, ademas de la primera letra del apellido de cada integrante. Ademas, con el fin de crear un diseño simple pero llamativo con los nombres, se usa una recreacion de la fuente usado en videojuego <i>Devil May Cry 5</i> como fuente base del diseño.
+
+<div align="center">
+  <img src="./Media/Fotos/nombres.PNG" width="600" title="nombres">
+  <p>Figura 1. Nombres con fuente estilizada.</p>
+</div>
+
+En cuento a la decoracion, se busco usar un logo ya existen con el fin de agilizar el trazado de las trayectorias del robot. Se opto por el emblema de la saga <i>Assassin's Creed</i> debido a que presenta un equlibrio optimo entre simplicidad y complejidad.
+
+<div align="center">
+  <img src="./Media/Fotos/logo.PNG" width="600" title="logo">
+  <p>Figura 2. Emblema <i>Assassin's Creed</i>.</p>
+</div>
+
+Por ultimo se modelan estos dibujos junto a las dimensiones del pastel en un entorno 3D (<i>OnShape</i>) con el fin de facilitar la creacion de puntos y trayectorias en <i>RobotStudio</i> mediante la seleccion de vertices que permite el software.
+
+<div align="center">
+  <img src="./Media/Fotos/pastel.PNG" width="600" title="pastel">
+  <p>Figura 3. CAD Pastel decorado.</p>
+</div>
+
+
+
 ## Diagrama de flujo de acciones del robot
+
+Se planteo el siguiente diagrama de flujo sobre las acciones que el robot debe cumplir para dar solucion a la problematica planteada.
+
+<div align="center">
+  <img src="./Media/Fotos/DiagramaFlujo.PNG" width="900" title="digflu">
+  <p>Figura 1. Diagrama de Fujo de las acciones del robot.</p>
+</div>
+
+En primera instancia se da un reinicio general a los testigos y posicion con el fin de evitar problemas durante la ejecucion de las rutinas. Posteriormente, se evalua si la primera entrada digital esta activa:
+
+<ul>
+<li> En caso afirmativo, se enciende el testigo correspondiente y ejecuta la rutina de los nombres y el logo en orden, y por ultimo de vuelve el manipulador a su posicion inicial y apaga el testigo.
+<li> En caso neagtivo, continua a la siguinete funcion.
+</li>
+</ul>
+
+La siguiente funcion corresponde a evaluar si la segunda entrada digital esta activa:
+
+<ul>
+<li> En caso afirmativo, se enciende el testigo correspondiente y pociona el manipulador en su ubicacion de mantenimiento, y espera hasta que se vuelva a activar la segunda entrada digital. Si se activa la señal, el manipulador vuelve a su posicon incial y apaga el testigo.
+<li> En caso negativo, continua a la siguinete funcion.
+</li>  
+</ul>
+
+Ambas condiciones estan en un ciclo perpetuo, por lo cual si ninguna de la señales de entra es accionada, se repeti el ciclo de verificacion hasta que alguna sea activada.
+
 ## Plano de planta de la ubicación de cada uno de los elementos
+
+<div align="center">
+  <img src="./Media/Fotos/Planta.PNG" width="300" title="digflu">
+  <p>Figura 1. Diagrama de Fujo de las acciones del robot.</p>
+</div>
+
+<div align="center">
+  <img src="./Media/Fotos/Planta2.PNG" width="300" title="digflu">
+  <p>Figura 1. Diagrama de Fujo de las acciones del robot.</p>
+</div>
+
 ## Descripción de las funciones utilizadas
 
 <ul>
