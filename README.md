@@ -729,6 +729,9 @@ MODULE Module1
         IF DI_02=1 THEN
          Set DO_02;
         mantenimiento;
+        WaitDI DI_02,1;
+        goHome;
+        Reset DO_02;
         ENDIF 
             
         ENDWHILE
