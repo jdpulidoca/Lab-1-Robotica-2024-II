@@ -102,7 +102,7 @@ En caunto a la distribucion de los objetos usados duarnte la practica, tanto en 
   <p>Figura 8. Distribucion de planta virtual.</p>
 </div>
 
-En esta distribucion el worrkobject se encuentra en la coordenadas del <i>Workobject</i> son 424.07 mm en el eje <i>x</i>, 85.31 mm en el eje <i>y</i> y 200 mm en el eje <i>z</i> respecto al origen del mundo, para superficie plana. En caso de la superficie inclinida su <i>Workobject</i> sus coordenadas son 346.241 mm en el eje <i>x</i>, -502.554 mm en el eje <i>y</i> y 96.954 mm en el eje <i>z</i> y una rotacion de -0.114 grados en el eje <i>x</i>, -29.983 gardos en el eje <i>y</i> y -21.22 en el eje <i>z</i>.
+En esta distribucion el worrkobject se encuentra en la coordenadas del <i>Workobject</i> son 424.07 mm en el eje <i>x</i>, 85.31 mm en el eje <i>y</i> y 200 mm en el eje <i>z</i> respecto al origen del mundo (el cual es la base del manipulador), para superficie plana. En caso de la superficie inclinida su <i>Workobject</i> sus coordenadas son 346.241 mm en el eje <i>x</i>, -502.554 mm en el eje <i>y</i> y 96.954 mm en el eje <i>z</i> y una rotacion de -0.114 grados en el eje <i>x</i>, -29.983 gardos en el eje <i>y</i> y -21.22 en el eje <i>z</i>.
 
 <div align="center">
   <img src="./Media/Fotos/Planta2.PNG" width="600" title="plantav2">
