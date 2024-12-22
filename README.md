@@ -31,25 +31,25 @@ Además se deben incluir señales de entrada y salidas. Se deben crear dos entra
 </div>
 
 
-### Solucion
+### Solución
 
-En cuanto a la solucion, se plantea el tamaño que debe tener un pastel circular para 20 personas por lo cual se realiza la consulta y se obtiene el dato de que en promedio este es de un tamaño de 25 cm de diametro con una altura de entre 10 y 20 cm. Por lo cual se parte de estas dimensiones para realizar los recorridos de las decoraciones.
+Para la solución, primero se estimó el tamaño ideal de un pastel circular para 20 personas. Tras una búsqueda rápida, se determinó que un pastel con un diámetro promedio de 25 cm y una altura de entre 10 y 20 cm sería adecuado. Estas dimensiones se tomaron como base para planificar las decoraciones.
 
-Para los nombres, se usaron los primeros nombres o abreviaciones de los mismo, ademas de la primera letra del apellido de cada integrante. Ademas, con el fin de crear un diseño simple pero llamativo con los nombres, se usa una recreacion de la fuente usado en videojuego <i>Devil May Cry 5</i> como fuente base del diseño.
+En cuanto a los nombres, se utilizaron las primeras cuatro letras o abreviaturas de los nombres de los integrantes, junto con la inicial de sus apellidos. Para darle un toque único pero sencillo al diseño, se usó como inspiración la tipografía del videojuego <i>Devil May Cry 5</i>.
 
 <div align="center">
   <img src="./Media/Fotos/nombres.PNG" width="600" title="nombres">
   <p>Figura 2. Nombres con fuente estilizada.</p>
 </div>
 
-En cuento a la decoracion, se busco usar un logo ya existen con el fin de agilizar el trazado de las trayectorias del robot. Se opto por el emblema de la saga <i>Assassin's Creed</i> debido a que presenta un equlibrio optimo entre simplicidad y complejidad.
+Para la decoración del pastel, se decidió usar un logo ya existente para agilizar el proceso de trazar las trayectorias del robot. El emblema elegido fue el de la saga <i>Assassin's Creed</i>, ya que combina simplicidad con un nivel adecuado de detalle.
 
 <div align="center">
   <img src="./Media/Fotos/logo.PNG" width="600" title="logo">
   <p>Figura 3. Emblema <i>Assassin's Creed</i>.</p>
 </div>
 
-Por ultimo se modelan estos dibujos junto a las dimensiones del pastel en un entorno 3D (<i>OnShape</i>) con el fin de facilitar la creacion de puntos y trayectorias en <i>RobotStudio</i> mediante la seleccion de vertices que permite el software.
+Finalmente, se modelaron tanto el diseño del pastel como sus decoraciones en un entorno 3D (<i>OnShape</i>). Esto permitió generar los puntos y trayectorias en <i>RobotStudio</i> de forma más precisa utilizando los vértices del modelo.
 
 <div align="center">
   <img src="./Media/Fotos/pastel.PNG" width="600" title="pastel">
@@ -68,48 +68,48 @@ Por ultimo se modelan estos dibujos junto a las dimensiones del pastel en un ent
 
 ## Diagrama de flujo de acciones del robot
 
-Se planteo el siguiente diagrama de flujo sobre las acciones que el robot debe cumplir para dar solucion a la problematica planteada.
+Se planteó el siguiente diagrama de flujo sobre las acciones que el robot debe cumplir para dar solucion a la problemática planteada.
 
 <div align="center">
   <img src="./Media/Fotos/DiagramaFlujo.PNG" width="900" title="digflu">
   <p>Figura 7. Diagrama de Fujo de las acciones del robot.</p>
 </div>
 
-En primera instancia se da un reinicio general a los testigos y posicion con el fin de evitar problemas durante la ejecucion de las rutinas. Posteriormente, se evalua si la primera entrada digital esta activa:
+En primera instancia se da un reinicio general a los testigos y la posición del robot con el fin de evitar problemas durante la ejecución de las rutinas. Posteriormente, se evalua si la primera entrada digital esta activa:
 
 <ul>
-<li> En caso afirmativo, se enciende el testigo correspondiente y ejecuta la rutina de los nombres y el logo en orden, y por ultimo de vuelve el manipulador a su posicion inicial y apaga el testigo.
-<li> En caso neagtivo, continua a la siguinete funcion.
+<li> En caso afirmativo, se enciende el testigo correspondiente y ejecuta la rutina de los nombres y el logo en orden, y por último el manipulador retorna a su posicion inicial y apaga el testigo.
+<li> En caso negativo, se continúa a la siguiente función.
 </li>
 </ul>
 
 La siguiente funcion corresponde a evaluar si la segunda entrada digital esta activa:
 
 <ul>
-<li> En caso afirmativo, se enciende el testigo correspondiente y pociona el manipulador en su ubicacion de mantenimiento, y espera hasta que se vuelva a activar la segunda entrada digital. Si se activa la señal, el manipulador vuelve a su posicon incial y apaga el testigo.
-<li> En caso negativo, continua a la siguinete funcion.
+<li> En caso afirmativo, se enciende el testigo correspondiente y se pociona el manipulador en su configuración de mantenimiento, y se espera hasta que se vuelva a activar la segunda entrada digital. Si se activa la señal, el manipulador vuelve a su posición incial y se apaga el testigo.
+<li> En caso negativo, se continúa a la siguinete función.
 </li>  
 </ul>
 
-Ambas condiciones estan en un ciclo perpetuo, por lo cual si ninguna de la señales de entra es accionada, se repeti el ciclo de verificacion hasta que alguna sea activada.
+Ambas condiciones se encuentran dentro en un ciclo perpetuo, por lo cual, si ninguna de la señales de entrada es accionada, se repete el ciclo de verificación hasta que alguna sea activada.
 
 ## Plano de planta de la ubicación de cada uno de los elementos
 
-En caunto a la distribucion de los objetos usados duarnte la practica, tanto en simulacion como en la realidad se realizo de manera empirica, siendo la diferencia mas notable que la planat virtual se dispone de 2 superficies: una inclinida y una sin inclinar con el fin de poder ajustar el <i>Workobject</i> de manera mas facil.
+La distribución de los objetos utilizados en la práctica, tanto en la simulación como en el laboratorio, se realizó de forma empírica. La principal diferencia radica en que la planta virtual cuenta con dos superficies: una inclinada y otra plana, lo que facilita el ajuste del <i>Workobject</i>.
 
 <div align="center">
   <img src="./Media/Fotos/Planta.PNG" width="600" title="plantav">
   <p>Figura 8. Distribucion de planta virtual.</p>
 </div>
 
-En esta distribucion el worrkobject se encuentra en la coordenadas del <i>Workobject</i> son 424.07 mm en el eje <i>x</i>, 85.31 mm en el eje <i>y</i> y 200 mm en el eje <i>z</i> respecto al origen del mundo (el cual es la base del manipulador), para superficie plana. En caso de la superficie inclinida su <i>Workobject</i> sus coordenadas son 346.241 mm en el eje <i>x</i>, -502.554 mm en el eje <i>y</i> y 96.954 mm en el eje <i>z</i> y una rotacion de -0.114 grados en el eje <i>x</i>, -29.983 gardos en el eje <i>y</i> y -21.22 en el eje <i>z</i>.
+En la primera distribución que corresponde al caso de la superficie plana, el <i>Workobject</i> se encuentra en las siguientes coordenadas: 424.07 mm en el eje <i>x</i>, 85.31 mm en el eje <i>y</i> y 200 mm en el eje <i>z</i> respecto al origen del mundo (el cual es la base del manipulador). Las cordenadas del <i>Workobject</i> para el caso de la superficie inclinada son: 346.241 mm en el eje <i>x</i>, -502.554 mm en el eje <i>y</i> y 96.954 mm en el eje <i>z</i> y una rotacion de -0.114° en el eje <i>x</i>, -29.983 gardos en el eje <i>y</i> y -21.22 en el eje <i>z</i>.
 
 <div align="center">
   <img src="./Media/Fotos/Planta2.PNG" width="600" title="plantav2">
   <p>Figura 9. Distribucion de planta virtual con unidad de control.</p>
 </div>
 
-En cuanto a planta real, solo se dispuso de una unica superficie la cual se debio ajustar segun si se queria realizar el trazo en plano normal o inclindado. Se uso como base la ubicacion de los <i>Workobject</i> de la planta virtual y se ajusto la ubicacion e inclinicaion de la superficie segun los resultados de los ensayos hasta dar con una ubicacion donde las trayectorias se ejecutaron correctamente, por lo cual el <i>Workobject</i> virtual y el <i>Workobject</i> real casi no coinciden, ademas de que lo elementos dispuestos en cada planta no son los mismo.
+En cuanto a la planta real, se trabajó con una única superficie, la cual se ajustó dependiendo de si se quería realizar el trazo en un plano normal o inclinado. Para ello, se tomó como referencia la ubicación de los <i>Workobject</i> de la planta virtual, pero se realizaron ajustes en la posición e inclinación de la superficie basados en los resultados de los ensayos. Estos ajustes continuaron hasta encontrar una configuración que permitiera ejecutar las trayectorias correctamente. Como resultado, los <i>Workobject</i> de la planta virtual y la real presentan diferencias significativas, además de que los elementos dispuestos en cada planta no son los mismos.
 
 <div align="center">
   <img src="./Media/Fotos/lab3.jpeg" width="600" title="plantar">
