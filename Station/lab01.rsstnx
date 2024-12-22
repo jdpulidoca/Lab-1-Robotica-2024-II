@@ -27127,6 +27127,6 @@
     <DocRef ID="1" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.IRB140%\IRB140_6_81_C_G_03.rslib" RelativeLocation="..\..\..\..\..\..\ProgramData\ABB\DistributionPackages2\ABB.RobotStudio.Models.IRB140-1.1\RobotStudio\LibraryComponents\IRB140_6_81_C_G_03.rslib" GUID="{FC921CAD-BF7C-4760-9332-E09FBB2B2964}" />
     <DocRef ID="2" DocumentType="ComponentLibrary" Location="C:\Users\josep\Documents\GitHub\Lab-1-Robotica-2024-II\Components\toolx.rslib" RelativeLocation="..\Components\toolx.rslib" GUID="{DE489D76-7389-4457-ADCB-1582B2C0ACA9}" />
     <DocRef ID="3" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.IRC5%\IRC5_Single-Cabinet.rslib" RelativeLocation="..\..\..\..\..\..\ProgramData\ABB\DistributionPackages2\ABB.RobotStudio.Models.IRC5-1.1\RobotStudio\LibraryComponents\IRC5_Single-Cabinet.rslib" GUID="{88D07C5D-7880-4502-8505-2BF6B61445F4}" />
-    <DocRef ID="4" DocumentType="ComponentLibrary" Location="C:\Users\josep\Desktop\Nueva carpeta\Components\pastel.rslib" RelativeLocation="..\..\..\..\Desktop\Nueva carpeta\Components\pastel.rslib" GUID="{FCFDC0CE-A061-40AB-84AE-82118D710182}" />
+    <DocRef ID="4" DocumentType="ComponentLibrary" Location="C:\Users\josep\Documents\GitHub\Lab-1-Robotica-2024-II\Components\pastel.rslib" RelativeLocation="..\Components\pastel.rslib" GUID="{FCFDC0CE-A061-40AB-84AE-82118D710182}" />
   </ReferencedDocuments>
 </PIMDocument>
