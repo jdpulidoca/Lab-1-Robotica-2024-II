@@ -95,19 +95,21 @@ Ambas condiciones estan en un ciclo perpetuo, por lo cual si ninguna de la seña
 
 ## Plano de planta de la ubicación de cada uno de los elementos
 
-En caunto a la dsitribucion de los objetos usados duarnte la practica, tanto en soimulacion como en la realidad se realizo de manera empirica, siendo la diferencia mas notable que la planat virtual se dispone de 2 superficies: una inclinida y una sin inclinar con el fin de poder ajustar el <i>Workobject</i> de manera mas facil.
+En caunto a la distribucion de los objetos usados duarnte la practica, tanto en simulacion como en la realidad se realizo de manera empirica, siendo la diferencia mas notable que la planat virtual se dispone de 2 superficies: una inclinida y una sin inclinar con el fin de poder ajustar el <i>Workobject</i> de manera mas facil.
 
 <div align="center">
   <img src="./Media/Fotos/Planta.PNG" width="600" title="plantav">
   <p>Figura 8. Distribucion de planta virtual.</p>
 </div>
 
+En esta distribucion el worrkobject se encutra en la coordenadas del <i>Workobject</i> son 424.07 mm en el eje <i>x</i>, 85.31 mm en el eje <i>y</i> y 200 mm en el eje <i>z</i> respecto al origen del mundo, para superficie plana. En caso de la superficie inclinida su <i>Workobject</i> sus coordenadas son 346.241 mm en el eje <i>x</i>, -502.554 mm en el eje <i>y</i> y 96.954 mm en el eje <i>z</i> y una rotacion de -0.114 grados en el eje <i>x</i>, -29.983 gardos en el eje <i>y</i> y -21.22 en el eje <i>z</i>.
+
 <div align="center">
   <img src="./Media/Fotos/Planta2.PNG" width="600" title="plantav2">
   <p>Figura 9. Distribucion de planta virtual con unidad de control.</p>
 </div>
 
-En caunto a planat real, solo se dispuso de una unica superficie la cual se ubico de forma empirica y se ajusto segun los resultados de los ensayos hasta dar con una ubicacion donde las trayectorias se eejcutaron correctamente, por lo cual el <i>Workobject</i> virtual y el  <i>Workobject</i> real nunca coincidieron y este ultimo se ajusto segun las superficies de soporte que se disponion duarante las practicas.
+En cuanto a planta real, solo se dispuso de una unica superficie la cual se debio ajustar segun si se queria realizar el trazo en plano normal o inclindado. Se uso como base la ubicacion de los <i>Workobject</i> de la planta virtual y se ajusto la ubicacion e inclinicaion de la superficie segun los resultados de los ensayos hasta dar con una ubicacion donde las trayectorias se ejecutaron correctamente, por lo cual el <i>Workobject</i> virtual y el <i>Workobject</i> real casi no coinciden, ademas de que lo elementos dispuestos en cada planta no son los mismo.
 
 <div align="center">
   <img src="./Media/Fotos/lab3.jpeg" width="600" title="plantar">
